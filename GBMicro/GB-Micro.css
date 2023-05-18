@@ -1,6 +1,7 @@
 body {
     background-color: aliceblue;
     margin: 0;
+    font-family: sans-serif;
 }
 
 #container {
@@ -63,12 +64,12 @@ body {
     border: rgba(0, 0, 0, 0.103) 2px solid;
     width: 100%;
     height: 80%;
-    box-shadow: rgba(0, 0, 0, 0.56) 1px 2px 3px 0px;
-    background: linear-gradient(black, gray);
+    box-shadow: rgba(0, 0, 0, 0.56) 1px 0px 3px 0px;
+    background: linear-gradient(rgb(51, 51, 51), rgb(39, 39, 39), rgb(41, 41, 41));
 }
 
 #horizontal{
-    background: linear-gradient(black, gray);
+    background: linear-gradient(black, rgb(39, 39, 39), black);
     width: 40px;
     height: 110px;
     box-shadow: rgba(0, 0, 0, 0.56) 3px 0px 3px 0px;
@@ -77,18 +78,19 @@ body {
 
 #vertical{
     position: absolute;
-    background: linear-gradient(black, gray);
+    background: linear-gradient(black, rgb(39, 39, 39), black);
     height: 40px;
     width: 110px;
     box-shadow: rgba(0, 0, 0, 0.56) 3px 0px 3px 0px;
 }
 
 #btn1 {
-    position: absolute;
-    display: flex;
+    font-size: 30px;
+    color: whitesmoke;
     text-align: center;
-    justify-content: center;
-    background: linear-gradient(black, gray);
+    position: absolute;
+    text-align: center;
+    background: linear-gradient(black, rgb(39, 39, 39), black);
     height: 20%;
     width: 30%;
     border-radius: 100%;
@@ -99,11 +101,11 @@ body {
 }
 
 #btn2 {
+    font-size: 30px;
+    color: whitesmoke;
     position: absolute;
-    display: flex;
     text-align: center;
-    justify-content: center;
-    background: linear-gradient(black, gray);
+    background: linear-gradient(black, rgb(39, 39, 39), black);
     height: 20%;
     width: 30%;
     margin: 30px;
@@ -176,5 +178,4 @@ body {
     text-align: center;
     border-radius: 10% 10% 10% 10%;
     box-shadow: rgba(0, 0, 0, 0.56) 1px 0px 3px 0px;
-
 }
